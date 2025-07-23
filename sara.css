@@ -1,0 +1,260 @@
+body{
+
+background-color: #62cdfc;
+      
+}
+h1{
+
+    font-size: 50px;
+    color: #113F67;
+  
+      padding-left:50px;
+
+}
+
+.image img{
+ opacity: 0;
+  animation: fadeIn 2.5s ease forwards;
+width: 1255px;
+height:300px;
+}
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+.paragraph{
+ font-weight:bold;
+padding-left:50px;
+
+font-size:20px;
+color: #113F67;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.navigation{
+ 
+text-align: right;
+        padding: 10px;
+        font-size: 15px;
+            background-color: #93e2f0;
+            text-decoration: none;
+        }
+.button1{
+  padding-left: 40px;
+}
+  
+
+.logo{
+          color: #113f67;
+          font-size: 20px;
+          padding-left: 20px;
+          padding-bottom: 10px;
+}
+@media(max-width:600px){
+  h1{
+    font-size: 20px;
+  }
+  .paragraph{
+ font-weight:bold;
+padding-left:50px;
+
+font-size:15px;
+color: #113F67;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.image img{
+ opacity: 0;
+  animation: fadeIn 2.5s ease forwards;
+width: 475px;
+height:300px;
+
+}
+.navigation{
+ 
+text-align: right;
+        
+        font-size: 15px;
+            background-color: #93e2f0;
+            text-decoration: none;
+        }
+}
+  /*about*/
+  
+.image2 img{
+padding-left:200px;
+padding-top:00px;
+width:250px;
+height:250px;
+
+
+  }
+  h2{
+    color: #113F67;
+     text-align:left;
+  padding-left:500px;
+  }
+  .paragraph2{
+    color: #113F67;
+    text-align:left;
+    padding-left:500px;
+    font-weight:bold;
+    font-size:15px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  @media(max-width:600px){
+
+ h2{
+    color: #113F67;
+     text-align:left;
+
+  }
+ .paragraph2{
+    color: #113F67;
+    text-align:left;
+    
+    font-weight:bold;
+    font-size:5px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+.image2 img{
+padding-left:10px;
+padding-top:00px;
+width:100px;
+height:100px;
+  }
+}
+
+  /*contact*/
+
+
+.contact-section {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.contact-form {
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px; /* spacing between fields */
+}
+
+.form-group {
+  width: 100%;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 12px;
+  font-size: 1em;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.contact-form textarea {
+  height: 120px;
+  resize: vertical;
+}
+
+.contact-form button {
+  padding: 12px;
+  font-size: 1em;
+  background-color: #005f8f;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.contact-form button:hover {
+  background-color: #003f5c;
+}
+.contact{
+padding-left: 50px
+}
+ @media(max-width:600px){
+  .contact{
+  padding-left: 120px;
+  }
+ }
+
+/*portfilio*/
+.testimonial-box{
+ color: #113F67;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.testimonials-section {
+  background-color: #b3e5fc;
+  text-align: center;
+  padding: 40px 20px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.testimonials-section h2 {
+  font-size: 28px;
+  margin-bottom: 30px;
+  color: #01579b;
+}
+
+.testimonial-card {
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 15px auto;
+  width: 80%;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  text-align: left;
+  max-width: 700px;
+}
+
+.testimonial-card p {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
+
+.testimonial-card h4 {
+  font-weight: bold;
+  color: #0277bd;
+  text-align: right;
+}
+
+
+  
+button{
+  display: inline-block;
+  padding: 10px;
+  background-color:#003f5c ;         /* Green background */
+  color: white;                      /* White text */
+  text-decoration: none;             /* Remove underline */
+  font-family: Arial, sans-serif;    /* Font style */
+  font-size: 10px;                   /* Font size */
+  font-weight: bold;                 /* Bold text */
+  border-radius: 8px;                /* Rounded corners */
+  border: none;                      /* No border */
+  transition: background-color 0.3s; /* Smooth hover effect */
+}
+button:hover {
+  background-color: #e5ebe5;         /* Darker green on hover */
+}
+/*SERVICES*/
+.ours{
+  padding-right: 525px;
+}
+ @media(max-width:600px){
+
+.ours{
+
+padding-left:120px ;
+
+}
+
+
+ }
